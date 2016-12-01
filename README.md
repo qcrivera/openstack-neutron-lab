@@ -6,9 +6,11 @@
   
 ##2- create networking
 
+```
   virsh net-create os-vanila-management-net.xml
   virsh net-create os-vanilla-external-net.xml
-  
+```
+
 ##3- Create your vms
   
 ###Download the VMs for the LAB
