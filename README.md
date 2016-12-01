@@ -1,10 +1,10 @@
 #Instructions:
 
-##1- clone repo
+##1- Clone repo
  
   git clone https://github.com/qcrivera/openstack-neutron-lab.git
   
-##2- create networking
+##2- Create networking
 
 ```
   virsh net-create os-vanila-management-net.xml
