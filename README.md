@@ -7,8 +7,14 @@
 ##2- Create networking
 
 ```
-  virsh net-create os-vanila-management-net.xml
-  virsh net-create os-vanilla-external-net.xml
+virsh net-define os-vanila-management-net.xml
+virsh net-start os-vanila-management-net.xml
+virsh net-autostart os-vanila-management-net.xml
+
+virsh net-define os-vanilla-external-net.xml
+virsh net-start os-vanilla-external-net.xml
+virsh net-autostart os-vanilla-external-net.xml
+
 ```
 
 ##3- Create your vms
